@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prueba técnica</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>APP DE CLIMA</h1>
+    <form id="form-container">
+      <label for="city">
+        <input id="city" placeholder="Introduce tu ciudad" />
+      </label>
+      <button>Enviar</button>
+    </form>
+
+    <p id="city-error">La ciudad que has introducido no existe</p>
+
+    <section id="temp-section" class="temp-section">
+      <div class="temp-container">
+        <p>Min Temperature: <span id="min-temp">0</span></p>
+        <p>Temperature: <span id="current-temp">0</span></p>
+        <p>Max Temperature: <span id="max-temp">0</span></p>
+      </div>
+      <div class="temp-container">
+        <p>Humidity: <span id="humidity">0</span></p>
+        <p>Pressure: <span id="pressure">0</span></p>
+      </div>
+      <div class="temp-container">
+        <p>Clouds: <span id="clouds">0</span></p>
+        <p>Wind: <span id="wind">0</span></p>
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
